@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #141414;
+    /* background: linear-gradient(to right, rgb(235, 93, 68), rgba(235, 93, 68, 0)) ; */
+}
+
+.container {
+   /* border: 2px solid black; */
+   width: 30rem;
+   height: 195vh;
+   margin: 2.5rem auto;
+   border-radius: 15px;
+   background-color: #7fc3c0;
+
+}
+
+.heading {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #cfb845;
+    margin-top: 2rem;
+}
+
+.title-paragraph {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.form-container {
+    /* border: 1px solid blue; */
+    margin: 0.3auto;
+    width: 75%;
+    height: 180vh;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.form-label  {
+   /* border: 1px solid yellow; */
+   padding: 0.5rem;
+   font-weight: 530;
+}
+
+.input {
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 0.8rem;
+    outline: none;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 5px;   
+    width: 95%;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+
+}
+
+.input-group {
+    /* border: 2px solid pink; */
+    padding: 0.4rem;
+    margin-top: 0.8rem;
+}
+
+span {
+    padding: 0.3rem;
+}
+
+/* .simple {
+    margin-left: 0.2rem;
+
+} */
+
+input[type="radio"] {
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 0.4rem;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    height: 17px;
+    width: 17px;
+    margin-left: 0.4rem;
+}
+
+.remark {
+    padding: 0.5rem;
+    font-weight: 530;
+}
+
+.textarea {
+    display: flex;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.8rem;
+    width: 90%;
+    height: 30vh;
+    padding: 0.4rem;
+    margin-left: 0.4rem;
+    font-weight: 700;
+}
+
+.btn {
+    width: 95%;
+    margin-left: 0.6rem;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    height: 6vh;
+    border: none;
+    background-color: #cfb845;
+    color: #141414;
+    font-size: 20px;
+    font-weight: 770;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type=text/css href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="heading">
+            <h1 class="title">Survey Form</h1>
+            <p class="title-paragraph">Thank You For Taking Your Time To Give Us FeedBack</p>
+        </header>
+    
+        <form class="form-container">
+            <div class="form-label">
+                <label for="name">Name</label>
+                <input type="text"  class="input" name="name" id="name" placeholder="Enter your Name" required /> 
+           </div>
+           
+           <div class="form-label">
+             <label for="email">Email</label> 
+             <input type="email" class="input" name="email" id="email" placeholder="Enter your Email" />
+           </div>
+    
+           <div class="form-label">
+             <label for="age">Age</label> 
+             <input type="number" class="input" id="age"name="age" id="age" placeholder="Enter your Age" />
+           </div>
+    
+    
+          <div class="form-label">
+             <label for="role">Choose A Role That Best Describes You</label> 
+             <select name="role" class="input" id="role">
+                <option value="role">Select Your Role</option>
+                <option value="student">Student</option>
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="freelancer">Freelancer</option>
+             </select>
+          </div> 
+          
+          
+         <div class="form-label">
+
+             <label for="rating">Would You Recommend Our Product To A Friend ?</label>
+
+             <div class="input-group">
+                 <input type="radio" name="rating" value="never" /> <span>Never</span>
+             </div>
+
+             <div class="input-group">
+                 <input type="radio" name="rating" value="maybe" /> <span>Maybe</span>
+             </div>
+            
+             <div class="input-group">
+                 <input type="radio" name="rating" value="likely" /> <span>Likely</span>
+             </div>
+
+             <div class="input-group">
+                 <input type="radio" name="rating" value="definitely" /> <span>Definitely</span>
+             </div>
+            
+            </div>
+    
+    
+    
+         <div class="form-label">
+
+             <label for="review">Select Things That You Liked About Our Product</label>
+            
+             <div class="input-group">
+                 <input type="checkbox" name="review" value="ui" /> <span>UI</span>
+             </div>
+            
+             <div class="input-group">
+                 <input type="checkbox" name="review"  value="features" /> <span>Features</span>
+             </div>
+
+             <div class="input-group">
+                 <input type="checkbox" name="review" value="services" /> <span>Services</span>
+             </div>
+            
+             <div class="input-group">
+                 <input type="checkbox" class="simple" name="review" value="simpleness" /><span>Simpleness</span>
+             </div>
+            
+            </div>
+    
+    
+         <div class="remark">
+             <label for="remarks">Remarks</label>
+             <textarea name="remark" class="textarea" id="remark" cols="20" rows="8" placeholder="Tell Us How We Can Improve..."></textarea>
+         </div>
+    
+    
+         <div class="btn-div">
+             <button class="btn">Submit</button>
+         </div>
+        
+        </form>
+
+    </div>
+  
+
+</body>
+
+</html>
